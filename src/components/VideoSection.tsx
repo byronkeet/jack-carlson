@@ -26,7 +26,7 @@ export default function VideoSection() {
 					</div>
 					<div className='mt-8 text-center'>
 						<a
-							href='../assets/IBC Guide.pdf'
+							href='/IBC Guide.pdf'
 							className='inline-flex items-center bg-[#644c78] hover:bg-[#7d609a] text-white px-6 py-3 rounded-md transition-colors'
 							download
 						>
