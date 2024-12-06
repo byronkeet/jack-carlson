@@ -2,6 +2,7 @@ import React from 'react';
 import { PlayCircle } from 'lucide-react';
 import video from '../assets/ibc-breakdown.mp4';
 import poster from '../assets/poster.png';
+import IBC_Guide from '../assets/IBC_Guide.pdf';
 
 export default function VideoSection() {
   return (
@@ -26,7 +27,7 @@ export default function VideoSection() {
 					</div>
 					<div className='mt-8 text-center'>
 						<a
-							href='/IBC Guide.pdf'
+							href={IBC_Guide}
 							className='inline-flex items-center bg-[#644c78] hover:bg-[#7d609a] text-white px-6 py-3 rounded-md transition-colors'
 							download
 						>
